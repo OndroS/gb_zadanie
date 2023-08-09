@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "gb_zadanie_api",
   "version": "1.0.0",
   "description": "",
   "main": "source/server.ts",
