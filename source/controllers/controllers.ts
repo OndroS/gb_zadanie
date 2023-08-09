@@ -42,7 +42,7 @@ const serverHealthCheck = (req: Request, res: Response, next: NextFunction) => {
 
 const getOptimizedProductsPositions = async (req: Request, res: Response, next: NextFunction) => {
     const products: string[] = req.body.products;
-    const workerCoordinates: Coordinates = req.body.coordinates;
+    const workerCoordinates: Coordinates = req.body.workerStartingCoordinates;
 
     const productPositions = await fetchProductPositions(products);
 
